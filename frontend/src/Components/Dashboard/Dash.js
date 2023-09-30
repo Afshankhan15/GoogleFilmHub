@@ -39,7 +39,7 @@ const Dash = () => {
       });
 
       if (response.data.message === "User valid") { // if Fetch Movie successfully then --> it is executed else other than that CATCH block executed
-        setResult(response.data.ALLMOVIE);
+        setResult(response.data.MovieData);
         alert("Fetch Movie successfully");
       } 
     } catch (error) { 
@@ -106,7 +106,7 @@ const Dash = () => {
         { params: { googleId: Id } }
       );
       if (response.data.message === "Movie deleted successfully") {
-        setResult(response.data.ALLMOVIED);
+        setResult(response.data.MovieData);
         alert("Movie deleted successfully");
       } 
     } catch (error) {
@@ -140,7 +140,7 @@ const Dash = () => {
 
       if (response.data.message === "Movie updated successfully") {
         // Update the Movie's information
-        setResult(response.data.UserData); // Update with the updated Movie data
+        setResult(response.data.MovieData); // Update with the updated Movie data
         alert(response.data.message);
       }
     } catch (error) {

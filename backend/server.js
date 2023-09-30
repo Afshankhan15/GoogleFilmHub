@@ -10,9 +10,8 @@ dotenv.config({ path: "./Config/config.env" });
 // Import the connectToDatabase function from the database configuration file
 const connectToDatabase = require("./Config/database");
 
-
 // Import the Passport.js configuration from the middleware folder
-require('./Middleware/auth'); 
+require("./Middleware/auth");
 
 // model and route for user
 const usermodel = require("./Model/User");
@@ -25,8 +24,8 @@ const userApi = require("./Routes/UserRoutes");
 const app = express();
 
 // if you want to use json
-app.use(express.json())
-app.use(express.urlencoded({extended: true}));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(cors()); // Enable CORS for all routes
 app.use(bodyParser.json()); // Parse JSON data in the request body
