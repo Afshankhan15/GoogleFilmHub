@@ -1,0 +1,51 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.login-container:hover {
+  background-image: url("https://cdn.dribbble.com/userupload/7422608/file/original-f2d572ac09b1f57d11c51b9c2e84f67f.jpg");
+}
+/* Styling for the login box */
+.login-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the login heading */
+.login-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for the Google sign-in button */
+.google-sign-in-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Styling for the Google logo */
+.google-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.google-sign-in-button:hover {
+  background-color: rgb(60, 107, 239);
+}

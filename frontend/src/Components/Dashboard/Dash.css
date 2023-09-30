@@ -1,0 +1,142 @@
+.dash-page {
+  min-height: 100vh;
+  margin-top: 4vmax;
+  /* background-color: rgb(224, 239, 24); */
+}
+.dash-container {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+  /* background-color: rgb(201, 239, 233); */
+}
+.input-wrap {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color:blue ; */
+}
+.inputval1 {
+  width: 30%;
+  padding: 14px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 14px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for buttons */
+.btn-wrap1 {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.btn1 {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(17, 195, 17);
+}
+.btn1:hover {
+  color: white;
+  background-color: rgb(0, 136, 255);
+}
+
+.profile-picture {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%; /* Create a circular shape */
+  object-fit: cover; /* Maintain the aspect ratio and cover the container */
+  border: 2px solid white;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  cursor: pointer;
+}
+
+.main {
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.movies {
+  height: 300px; /* Set a fixed height for all movie cards */
+  width: 200px; /* Set a fixed width for all movie cards */
+  font-weight: bold;
+  border: 1px solid red;
+  padding: 10px;
+  width: 22%;
+  margin-top: 0vmax;
+  margin-bottom: 16px;
+  background-color: black;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.movies:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(133, 131, 131, 0.2);
+  background-color: rgb(27, 27, 27);
+}
+
+.movies img {
+  height: 85%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.movie-img-nodata {
+  position: absolute;
+  top: 10.7vmax;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire space */
+}
+
+.wrapicon {
+  height: 14%;
+  width: 100%;
+  display: flex;
+}
+.h3-wrap {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 70%;
+  height: 100%;
+}
+.action-buttons {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-buttons button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: whitesmoke;
+  transition: background-color 0.3s ease;
+}
+.action-buttons button:hover {
+  color: red;
+}

@@ -1,0 +1,48 @@
+.RegPage-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.registration-success {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.registration-success img {
+  max-width: 60%;
+  height: auto;
+  margin-top: 20px; /* Add some spacing between the image and heading */
+}
+
+.registration-success h1 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px; /* Add some spacing between the heading and image */
+}
+
+.login-button {
+  background-color: #0078d4;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}

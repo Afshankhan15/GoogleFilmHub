@@ -1,0 +1,61 @@
+/* Styling for the Navbar */
+.Navbar {
+  height: 6vh;
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #3498db
+  ); /* Gradient background */
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease; /* Smooth color transition */
+}
+
+.Navbar:hover {
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2c3e50
+  ); /* Gradient on hover */
+}
+
+.Navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Styling for the Navbar links */
+.Navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar-link {
+  margin: 0 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Navbar-link:hover {
+  color: #f39c12;
+}
