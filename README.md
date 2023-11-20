@@ -38,12 +38,6 @@ These instructions will get you a copy of the project up and running on your loc
 3. Start the development server
   `npm start`
 
-
-## Contact📧
-
-Afshan Khan - [LinkedIn](https://www.linkedin.com/in/afshan-khan252)  
-Project Link: [https://github.com/Afshankhan15/GoogleFilmHub](https://github.com/Afshankhan15/GoogleFilmHub)
-
 ## Contributing🤝
 
 We welcome contributions to Google Film Hub! If you'd like to contribute, feel free to reach out 🙌.
